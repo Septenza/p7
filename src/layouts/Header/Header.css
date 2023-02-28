@@ -1,0 +1,45 @@
+header {
+  align-items: center;
+  display: inline-flex;
+  margin: 30px;
+  width: 90%;
+}
+
+header > img {
+  height: 68px;
+  margin-left: 25px;
+}
+
+nav {
+  justify-content: flex-end;
+  display: flex;
+  width: 90%;
+}
+
+.lien-site {
+  color: #ff6060;
+  margin-left: 35px;
+  text-decoration: none;
+}
+.lien-site:hover {
+  color: #000000;
+}
+
+.lien-menu.active {
+    border-bottom: 1px solid #ff6060;
+}
+
+@media screen and (max-width: 780px) {
+  header {
+    margin: 40px 2.5%;
+    width: 90%;
+  }
+  
+  header > img {
+    height: 37px;
+  }
+
+  .lien-site {
+    margin-left: 25px;
+  }
+}
