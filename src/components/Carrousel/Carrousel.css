@@ -39,6 +39,16 @@
     display: block;
 }
 
+.slideCount{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: 500;
+    font-size: clamp(12px, 2vw, 16px);
+}
+
 @media screen and (max-width: 1490px) {
     .carrousel {
         height: 255px;
